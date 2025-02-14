@@ -47,13 +47,13 @@
             </div>
             <p>
                 <?php
-                    $weather_conditions = array("snow", "wind", "sunshine", "clouds", "rain", "hail", "sleet");
+                    $weather = array("snow", "wind", "sunshine", "clouds", "rain", "hail", "sleet");
 
                     echo "We've seen all kinds of weather this month. At the beginning of the month, we had "
-                        . $weather_conditions[0] . " and " . $weather_conditions[1] . ". "
-                        . "Then came " . $weather_conditions[2] . " with a few " . $weather_conditions[3] . " and some " 
-                        . $weather_conditions[4] . ". At least we didn't get any " . $weather_conditions[5] . " or " 
-                        . $weather_conditions[6] . ".";
+                        . $weather[0] . " and " . $weather[1] . ". "
+                        . "Then came " . $weather[2] . " with a few " . $weather[3] . " and some " 
+                        . $weather[4] . ". At least we didn't get any " . $weather[5] . " or " 
+                        . $weather[6] . ".";
                 ?>
             </p>
         </div>
