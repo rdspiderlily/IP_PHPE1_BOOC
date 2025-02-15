@@ -47,7 +47,7 @@
             </div>
             <p>
                 <?php
-                    $weather = array("snow", "wind", "sunshine", "clouds", "rain", "hail", "sleet");
+                    $weather = ["snow", "wind", "sunshine", "clouds", "rain", "hail", "sleet"];
 
                     echo "We've seen all kinds of weather this month. At the beginning of the month, we had 
                         $weather[0] and $weather[1]. Then came $weather[2]  with a few $weather[3] and some 
